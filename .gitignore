@@ -34,3 +34,4 @@ python_env/
 
 # Test cache
 .pytest_cache/
+pytest.ini
