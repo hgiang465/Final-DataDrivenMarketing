@@ -1,3 +1,36 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+python_env/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
 .vscode/
+*.swp
+*.tmp
+
+# Output / generated artifacts
+#Output/
+#*.pkl
+#*.npy
+#*.csv
+#*.xlsx
+#*.log
+
+# Dataset / data files
+#Dataset/
+# or if you want to keep some cleaned data tracked, ignore only raw/large files:
+# Dataset/*.csv
+# Dataset/*.pkl
+
+# Test cache
+.pytest_cache/
