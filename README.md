@@ -92,7 +92,7 @@ pip install -r requirements.txt
 - scipy: Statistical analysis
 - statsmodels: Statistical modeling
 
-## 📊 Quick Start
+## Quick Start
 
 1. **Explore the data**:
    ```bash
