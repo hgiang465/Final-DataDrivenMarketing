@@ -1,8 +1,7 @@
-numpy
 pandas
+numpy
 matplotlib
 seaborn
 scikit-learn
-lifetimes
-aiohttp
-nbformat
+xgboost
+pytest
