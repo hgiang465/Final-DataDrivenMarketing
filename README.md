@@ -1,12 +1,25 @@
 # Final Data-Driven Marketing Analytics
+## Project Information
 
-A comprehensive data science project analyzing customer behavior and marketing performance through advanced analytics, predictive modeling, and business intelligence.
+**Subject**: Data-Driven in Marketing  
+**Instructor**: Dr. Nguyen Tuan Long
 
-## 📋 Project Overview
+**Team Members**:
+
+| No. | Name | Student ID | Class |
+|-----|------|------------|-------|
+| 1 | Ninh Duy Tuan | 11230603 | DSEB 65B |
+| 2 | Nguyen Thi Huong Giang | 11230521 | DSEB 65B |
+| 3 | Nguyen Thanh Mo | 11230571 | DSEB 65B |
+| 4 | Le Lan Huong | 11230561 | DSEB 65B |
+| 5 | Nguyen Khanh Huyen | 11230571 | DSEB 65B |
+
+
+## Project Overview
 
 This project implements an end-to-end data-driven marketing solution that transforms raw customer data into actionable business insights. The analysis includes exploratory data analysis, customer segmentation, churn prediction, customer lifetime value forecasting, and A/B testing evaluation.
 
-## 🎯 Key Objectives
+## Key Objectives
 
 - **Customer Understanding**: Segment customers into meaningful groups for targeted marketing
 - **Churn Prediction**: Identify at-risk customers to enable retention strategies
@@ -14,7 +27,34 @@ This project implements an end-to-end data-driven marketing solution that transf
 - **Experimentation**: Conduct and analyze A/B tests to improve marketing effectiveness
 - **Data Quality**: Ensure data integrity through comprehensive cleaning and validation
 
-## 📁 Project Structure
+## Data Dictionary
+This dataset provides a comprehensive overview of e-commerce operations throughout the fiscal year 2019 (January 1st to December 31st). It captures 52,924 individual transactions involving 1,468 unique customers.
+
+| Column Name | Description | Data Type |
+| :--- | :--- | :--- |
+| **CustomerID** | Unique identifier for each customer | `int64` |
+| **Transaction_ID** | Unique identifier for each transaction | `int64` |
+| **Transaction_Date** | Date when the transaction occurred (YYYY-MM-DD) | `string` |
+| **Product_SKU** | Unique Stock Keeping Unit (Product ID) | `string` |
+| **Product_Description** | Full name/detailed description of the product | `string` |
+| **Product_Category** | High-level category of the product | `string` |
+| **Quantity** | Number of units ordered in the transaction | `int64` |
+| **Avg_Price** | Average price per single unit | `float64` |
+| **Delivery_Charges** | Charges for delivering the order | `float64` |
+| **Coupon_Status** | Indicates if a discount coupon was applied | `string` |
+| **Gender** | Gender of the customer | `string` |
+| **Location** | Geographical location of the customer | `string` |
+| **Tenure_Months** | Total months the customer has been with the platform | `int64` |
+| **Month** | Month when the promotional coupon is applicable | `string` |
+| **Coupon_Code** | Specific promotional code for a category | `string` |
+| **Discount_pct** | Percentage of discount offered | `int64` |
+| **Date** | Reference date for marketing spend | `string` |
+| **Offline_Spend** | Daily marketing spend on offline channels (TV, Radio, etc.) | `int64` |
+| **Online_Spend** | Daily marketing spend on online channels (Google, FB, etc.) | `float64` |
+| **GST** | Goods and Services Tax percentage for the category | `float64` |
+
+
+## Project Structure
 
 ```
 Final-DataDrivenMarketing/
@@ -31,56 +71,6 @@ Final-DataDrivenMarketing/
 ├── requirements.txt                  # Python dependencies
 └── README.md                         # This file
 ```
-
-## 🔍 Notebook Descriptions
-
-### 1. **data_cleaning.ipynb**
-- Data quality assessment and profiling
-- Handling missing values and outliers
-- Data type validation and standardization
-- Duplicate detection and removal
-
-### 2. **feature_engineering.ipynb**
-- Creation of derived features for analysis
-- Temporal feature extraction (recency, frequency)
-- Behavioral indicator engineering
-- Scaling and normalization
-
-### 3. **EDA_business_insights.ipynb**
-- Comprehensive exploratory analysis
-- Distribution analysis and correlations
-- Business metric visualization
-- Trend identification and pattern discovery
-
-### 4. **customer_table.ipynb**
-- Customer master data aggregation
-- Multi-source data integration
-- Customer attribute enrichment
-- Data consolidation and deduplication
-
-### 5. **customer_segmentation.ipynb**
-- RFM (Recency, Frequency, Monetary) analysis
-- K-Means clustering for customer grouping
-- Segment profiling and characterization
-- Actionable segment recommendations
-
-### 6. **churn_prediction.ipynb**
-- Binary classification model development
-- Feature importance analysis
-- Model evaluation and validation
-- Churn risk scoring and targeting
-
-### 7. **CLV_Prediction.ipynb**
-- Regression modeling for lifetime value
-- Revenue forecasting by customer segment
-- High-value customer identification
-- Portfolio analysis and optimization
-
-### 8. **A_B_testing.ipynb**
-- Statistical hypothesis testing framework
-- Effect size calculation and power analysis
-- Multiple testing correction
-- Experimentation results interpretation
 
 ## 🛠️ Installation & Setup
 
@@ -125,7 +115,7 @@ pip install -r requirements.txt
    jupyter notebook customer_segmentation.ipynb
    ```
 
-## 📈 Key Findings & Insights
+## Key Findings & Insights
 
 This project delivers actionable insights through:
 - **Customer segments** for targeted marketing campaigns
@@ -134,7 +124,7 @@ This project delivers actionable insights through:
 - **A/B test results** for campaign optimization
 - **Business recommendations** based on data analysis
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Python**: Core programming language
 - **Pandas**: Data manipulation
@@ -143,31 +133,8 @@ This project delivers actionable insights through:
 - **Jupyter**: Interactive analysis notebooks
 - **SciPy/StatsModels**: Statistical analysis
 
-## 📂 Data Directories
+## Data Directories
 
 - **Dataset/**: Contains all input data files required for analysis
 - **Output/**: Stores generated reports, predictions, and visualizations
 
-## 👥 Team Members
-
-- Lê Lan Hương
-- Nguyễn Thanh Mơ
-- Nguyễn Thị Hương Giang
-- Ninh Duy Tuân
-- Nguyễn Khánh Huyền
-
-## 🤝 Contributing
-
-Feel free to fork, submit issues, or create pull requests to improve this project.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 📞 Support
-
-For questions or issues, please open a GitHub issue in this repository.
-
----
-
-**Last Updated**: May 2026
