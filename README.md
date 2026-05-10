@@ -12,7 +12,7 @@
 | 2 | Nguyen Thi Huong Giang | 11230521 | DSEB 65B |
 | 3 | Nguyen Thanh Mo | 11230571 | DSEB 65B |
 | 4 | Le Lan Huong | 11230561 | DSEB 65B |
-| 5 | Nguyen Khanh Huyen | 11230571 | DSEB 65B |
+| 5 | Nguyen Khanh Huyen | 11230545 | DSEB 65B |
 
 
 ## Project Overview
