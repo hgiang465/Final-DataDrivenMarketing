@@ -19,6 +19,23 @@
 
 This project implements an end-to-end data-driven marketing solution that transforms raw customer data into actionable business insights. The analysis includes exploratory data analysis, customer segmentation, churn prediction, customer lifetime value forecasting, and A/B testing evaluation.
 
+# Final Data-Driven Marketing Analytics
+
+## 📊 Interactive Power BI Dashboard
+
+👉 [Open Power BI Dashboard](https://app.powerbi.com/groups/me/reports/b9da43b6-7920-4a26-9c2c-6a319d1f9fff/51b18881e99573ad6f5a?experience=power-bi)
+
+Dashboard includes:
+- Overview
+- Customer Analysis
+- Product Analysis
+- RFM Segmentation
+- Churn & CLV Analysis
+
+---
+
+## Project Information
+
 ## Key Objectives
 
 - **Customer Understanding**: Segment customers into meaningful groups for targeted marketing
@@ -122,7 +139,7 @@ This project delivers actionable insights through:
 - **Churn risk scores** for retention program prioritization
 - **Revenue predictions** for financial forecasting
 - **A/B test results** for campaign optimization
-- **Business recommendations** based on data analysis
+- **Business recommendations** based on data 
 
 ## Technologies Used
 
